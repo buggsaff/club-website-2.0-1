@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+#body1{
+  background-color: rgb(234,241,255);
+}
+#heading
+{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 1.31px;
+  color: #00214D;
+}
+#paragraph
+{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.59375px;
+  color: #5F6C7D;
+}
+#images
+{
+  height:410px;
+}
+.anchor1
+{
+  text-decoration: none;
+  color:red;
+}
+.row1
+{
+  padding-left: 35px;
+}
