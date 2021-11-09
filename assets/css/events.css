@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 800px;
+    width: 100%;
+    background-color: #e8effe;
+    display: flex;
+}
+
+.event-svg {
+    width: 288px;
+    height: 496px;
+    background: #F6FBFF;
+    margin-left: 20%;
+    position: relative;
+    top: 50px;
+}
+
+.event-wrap {
+    display: flex;
+}
+
+.event-discription-card {
+    margin-left: 170px;
+}
+
+.event-discription {
+    width: 603px;
+    height: 95px;
+    padding: 40px 40px 0 40px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 0.59375px;
+    color: #5F6C7D;
+}
+
+.bottom-design {
+    height: 250px;
+    padding-right: 0px;
+}
+
+.event-card-btn {
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+
+.event-card-btn p {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.59375px;
+}
+
+.event-image-text {
+    position: relative;
+    top: 100px;
+}
+
+.event {
+    position: absolute;
+    top: 40px;
+    text-align: center;
+}
+
+.event img {
+    -webkit-filter: drop-shadow(4px 4px 4px rgb(114, 114, 114));
+    filter: drop-shadow(4px 4px 4px rgb(119, 119, 119));
+}
+
+.event1-image-text {
+    right: 27%;
+}
+
+.event2-image-text {
+    right: 67%;
+}
+
+.btn {
+    position: relative;
+    top: 150px;
+}
+
+/* .bottom-icons {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+} */
+
+.bottom-design {
+    position: absolute;
+    float: right;
+    bottom: -18px;
+    right: 0;
+}
+
+.icon-principles {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 70px 0 70px;
+}
+
+.icon p {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.59375px;
+}
+
+.icons-principle svg {
+    margin: 30px 90px 0 90px;
+}
